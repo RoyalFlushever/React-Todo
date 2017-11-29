@@ -1,0 +1,6 @@
+1. project structure analysis
+2. work flow
+3. data flow
+4. binding with json-server
+5. working well?
+6. styling with css. 
