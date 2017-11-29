@@ -5,7 +5,7 @@ import TodoList from './TodoList';
 import AddTodo from './AddTodo';
 import Footer from './Footer';
 
-class App extends PureComponent {
+class TodoApp extends PureComponent {
 
   static propTypes = {
     activeFilter: PropTypes.string.isRequired,
@@ -23,7 +23,6 @@ class App extends PureComponent {
           <TodoList dispatch={dispatch} activeFilter={activeFilter} todoList={todoList} />
           <Footer dispatch={dispatch} activeFilter={activeFilter} />
         </div>
-        <small className="signature">by <b>Ivan Rogić</b> from <b>Toptal</b></small>
       </div>
     );
   }
@@ -31,4 +30,4 @@ class App extends PureComponent {
 
 const mapStateToProps = state => ({ ...state.todos });
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(TodoApp);
