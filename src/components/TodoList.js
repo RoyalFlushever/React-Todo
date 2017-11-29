@@ -5,7 +5,6 @@ import Todo from './Todo';
 export default class TodoList extends PureComponent {
 
   static propTypes = {
-    activeFilter: PropTypes.string.isRequired,
     todoList: PropTypes.object.isRequired,
     dispatch: PropTypes.func.isRequired,
   }

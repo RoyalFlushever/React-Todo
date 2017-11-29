@@ -26,7 +26,7 @@ export default class AddTodo extends Component {
     return (
       <div>
         <form onSubmit={e => this.addTodo(e)}>
-          <input className="form-control" type="text" placeholder="Enter ToDo" ref="todo"/>
+          <input className="form-control" type="text" placeholder="Enter Task Name" ref="todo"/>
         </form>
         <br/>
       </div>

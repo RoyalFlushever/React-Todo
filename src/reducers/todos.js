@@ -31,20 +31,6 @@ function todoList(state = List(), action) {
   }
 }
 
-
-function activeFilter(state = 'all', action) {
-  switch (action.type) {
-    case types.CHANGE_FILTER:
-      console.info('%cFilter changed: ' + action.filter.toUpperCase(), 'color:red; font-weight:bold;');
-      return action.filter;
-
-    default:
-      return state;
-  }
-}
-
-
 export default combineReducers({
-  activeFilter,
   todoList,
 });
