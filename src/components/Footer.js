@@ -13,7 +13,7 @@ export default class Footer extends PureComponent {
     const { dispatch } = this.props;
     return (
         <div className="pull-right">
-          <button className="btn btn-danger" onClick={() => dispatch(deleteAllTodos())}>Delete all</button>
+          <button className="btn" onClick={() => dispatch(deleteAllTodos())}>Reset</button>
         </div>
     );
   }

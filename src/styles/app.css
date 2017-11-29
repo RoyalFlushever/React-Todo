@@ -1,0 +1,9 @@
+.app {
+	margin: 100px auto;
+	width: 600px;
+}
+
+.completed {
+	opacity: 0.6;
+	text-decoration: line-through;
+}
