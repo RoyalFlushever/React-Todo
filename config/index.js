@@ -9,11 +9,11 @@ var config = {};
 // User Configuration
 // ------------------------------------
 config.cache = false;
-config.dir_src =  'src';
+config.dir_src = 'src';
 config.dir_dist = 'dist';
 
-config.webpack_host =  'localhost';
-config.webpack_port = process.env.PORT || 3000;
+config.webpack_host = 'localhost';
+config.webpack_port = process.env.PORT || 3000;
 
 config.vendor_dependencies = [
   'react',
