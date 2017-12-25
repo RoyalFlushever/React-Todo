@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "ToDo App using React, Redux and ImmutableJS",
   "private": false,
-  "author": "Ivan Rogić",
   "scripts": {
     "clean": "rm -rf dist",
     "start": "npm run dev",
